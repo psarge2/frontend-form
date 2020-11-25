@@ -297,6 +297,11 @@ form.sign-up-form {
     grid-template-rows: 1fr 2fr 1fr;
   }
 
+  .right-panel .conent,
+  .right-panel .image {
+    transform: translateX(0px);
+  }
+
   .panel {
     flex-direction: row;
     justify-content: space-around;
@@ -314,7 +319,7 @@ form.sign-up-form {
   }
   .panel p {
     font-size: 0.7rem;
-    padding: 0.5 0;
+    padding: 0.5rem 0;
   }
 
   .btn.transparent {
@@ -351,6 +356,11 @@ form.sign-up-form {
   .container.sign-up-mode .left-panel .content {
     transform: translateY(-300px);
   }
+
+  /* .container.sign-up-mode .right-panel .image,
+  .container.sign-up-mode .right-panel .content {
+    transform: translateY(0px);
+  } */
 
   .container.sign-up-mode .signin-signup {
     top: 5%;
