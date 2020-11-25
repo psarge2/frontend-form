@@ -20,7 +20,7 @@ input {
 }
 
 .container:before {
-  content: " ";
+  content: "";
   position: absolute;
   width: 2000px;
   height: 2000px;
